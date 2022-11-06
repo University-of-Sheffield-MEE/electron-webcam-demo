@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Webcam Test</title>
+</head>
+
+<body>
+  <div id="output-container" class="section">
+    <h2>Output Path</h2>
+    <span id="output-path"></span>
+    <button id="select-output-path">Select Output Directory</button>
+  </div>
+  <div id="video-container" class="section">
+    <h2>Video Source</h2>
+    <video id="video" autoplay width="600"></video>
+    <select id="devices"></select>
+  </div>
+  <div id="capture-container" class="section">
+    <h2>Capture</h2>
+    <button id="capture-image">Capture</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>

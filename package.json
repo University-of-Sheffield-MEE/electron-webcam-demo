@@ -1,0 +1,23 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "electron test",
+  "main": "src/main/main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-builder --win"
+  },
+  "author": "Edward Browncross",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^21.2.2",
+    "electron-builder": "^23.6.0",
+    "electron-reloader": "^1.2.3"
+  },
+  "build": {
+    "win": {
+      "target": "portable",
+      "icon": "src/main/icon.ico"
+    }
+  }
+}
